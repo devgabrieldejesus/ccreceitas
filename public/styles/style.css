@@ -112,6 +112,52 @@ main {
     font-weight:normal;
     color:var(--black-color);
 }
+/* =============================================================  MENU ============================================================= */
+aside {
+    top:0;
+    left:0;
+    z-index:2000;
+    display:flex;
+    position:fixed;
+}
+#menu-opener {
+    width:35px;
+    height:17px;
+    cursor:pointer;
+    margin-top:32px;
+    margin-left:20px;
+    left:140px;
+    position:absolute;
+}
+#menu-area {
+    width:0px;
+    height:100vh;
+    background-color:var(--black-color);
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition:all ease 0.3s;
+    padding-top:65px;
+}
+#menu-area ul, #menu-area li {
+    padding:0;
+}
+#menu-area li a{
+    cursor:pointer;
+    display:block;
+    padding:20px;
+}
+#menu-area li a {
+    color:#FFF;
+}
+#menu-area li:hover {
+    transition:all ease 0.2s;
+    border-left:5px solid #CCC;
+    background-color:#6666667c;
+}
+/* class para abrir o menu */
+.menu-opened {
+    width:150px !important;
+}
 /* ============================================================  FOOTER ============================================================ */
 footer {
     height:auto;
@@ -126,4 +172,9 @@ footer .container {
     color:#707070;
     font-size:15px;
     font-weight:normal;
+}
+.footer-copy a {
+    color:#333;
+    font-size:15px;
+    margin-left:5px;
 }
