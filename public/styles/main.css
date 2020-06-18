@@ -7,6 +7,12 @@
 :root {
     --black-color:#141414;
 }
+/* container main */
+.container {
+    width:1175px;
+    display:flex;
+    justify-content:space-between;
+}
 
 h2 {
     margin:0;
