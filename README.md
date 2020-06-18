@@ -18,7 +18,7 @@ Now have you ever imagined yourself participating in a completely online recipe 
 
 Gabriel de Jesus – [My portfolio](https://gabrieldesenvolvedor.com/) – contato@gabrieldesenvolvedor.com
 
-See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 [https://github.com/devgabrieldejesus/ccreceitas](https://github.com/devgabrieldejesus/)
 
