@@ -5,8 +5,11 @@
 Some say that cooking is a trail of good. The recipe for a preparation seems simple, passes from generation to generation and, with each hand, it becomes even better.
 Now have you ever imagined yourself participating in a completely online recipe contest? Yes, in CCReceitas this is possible!
 
-![](public/assets/social-preview.gif)
+> Web preview
+![](public/assets/web-preview.gif)
 
+> Mobile preview
+![](public/assets/mobile-preview.gif)
 
 ## Release history
 
