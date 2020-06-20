@@ -1,17 +1,19 @@
 /* =============================================================  MENU ============================================================= */
 
-// Função de adicionar e tirar class com largura fixa
-function menuToogle() {
+// Função para abrir o menu
+function openMenu() {
     // salvado o id do menu area em uma variavel
-    let  menuArea = document.getElementById("menu-area");
+    let abrirMenu = document.getElementById("menu-area");
+    // abrir menu adicionando a class com uma largura de 150px;
+    abrirMenu.classList.add('menu-opened');
+}
 
-    // verificando se a class menu-opened está presente:
-    if(menuArea.classList.contains('menu-opened') == true) { 
-        menuArea.classList.remove('menu-opened'); // se tiver então quer dizer que o menu está aberto então eu tiro a class menu-opened
-    }
+// Função para fechar o menu
+function closeMenu() {
+    // salvando o id do menu
+    let fechar = document.getElementById("menu-area");
 
-    // caso contrário então significa que o menu está fechado então adiciono a class para abrir o menu
-    else { 
-        menuArea.classList.add('menu-opened');
-    }
+    // fechando o menu removendo a class que tem a largura de 150px;
+    fechar.classList.remove('menu-opened');
+
 }

@@ -10,7 +10,7 @@
 </head>
 <body>
     
-<div id="menu-opener" onclick="menuToogle()"><img src="/public/assets/menu.png" width="35" alt="Menu Lateral"></div>
+<div id="menu-opener" onclick="openMenu()"><img src="/public/assets/menu.png" width="35" alt="Menu Lateral"></div>
 <!-- ============================================================  HEADER ============================================================ -->
 <header>
     <div class="container">
@@ -70,6 +70,7 @@
 <!-- =============================================================  MENU ============================================================= -->
 <aside>
     <div id="menu-area">
+        <div class="close-menu" onclick="closeMenu()">X</div>
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Classificação</a></li>
