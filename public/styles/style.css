@@ -163,7 +163,7 @@ aside {
 /* class para fechar o menu */
 .close-menu {
     cursor:pointer;
-    display:none;
+    display:flex;
     align-items:center;
     justify-content:center;
     width:35px;
@@ -204,9 +204,6 @@ footer .container {
 }
 /* ==========================================================  RESPONSIVE ========================================================== */
 @media (max-width:1300px) {
-    .close-menu {
-        display:flex;
-    }
     .container {
         width:900px;
     }
