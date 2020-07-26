@@ -11,6 +11,9 @@ Now have you ever imagined yourself participating in a completely online recipe 
 > Mobile preview
 ![](public/assets/mobile-preview.gif)
 
+## Deployment in
+https://devgabrieldejesus.github.io/ccreceitas
+
 ## Release history
 
 * 0.0.1
