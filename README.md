@@ -13,6 +13,8 @@ Now have you ever imagined yourself participating in a completely online recipe 
 
 ## Release history
 
+* 0.0.2
+    * Finished project and studying the possibility of adding `new resources`
 * 0.0.1
     * Work in `progress`
 
